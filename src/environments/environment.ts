@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyBA8tCVoHdoUeNU4MOkit8XN_omGdcHYwg",
+    authDomain: "alkor-quizz-scoreboard.firebaseapp.com",
+    projectId: "alkor-quizz-scoreboard",
+    storageBucket: "alkor-quizz-scoreboard.appspot.com",
+    messagingSenderId: "1075175334431",
+    appId: "1:1075175334431:web:4abd203105c5225c85ab2a",
+    measurementId: "G-E535F4B7FR"
+  }
 };
 
 /*
