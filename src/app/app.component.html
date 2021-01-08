@@ -1,2 +1,13 @@
-Salut les viewers de la Alkor television !!!!!!!
-Bon courage pour suivre ce live de Qualité... ... ...
+Salut les viewers de la Briquette television !!!!!!!
+<br/>
+Amusez vous bien sur ces lives de Qualité !!<br/>
+Les streamers que vous verrez sont : <br/><br/>
+<div *ngFor="let streamer of streamers">
+  {{streamer.name}} ({{streamer.type}})
+</div>
+
+<br/>
+<br/>
+Tu veux aussi ajouter ton streamer préféré, ajoute-le ici :<br/>
+Rentre ton streamer : <input type="text" [(ngModel)]="bestStreamer">
+<button (click)="addBestStream()">Ajouter mon streamer</button>
